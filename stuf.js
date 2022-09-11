@@ -1,6 +1,21 @@
 let url = document.location.href;
 let nome = url.substring(url.indexOf('#') + 1, url.length-1);
 
+
+
+let x = 0;
+        function rbtn() {
+            x++
+            document.getElementById('no').style.marginTop = Math.floor(Math.random() * 1000) + 1+"px"
+            document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 800) + 1+"px"
+            document.getElementById('ten').innerHTML = "tentativas :"+x
+        }
+
+    
+
+
+
+
 function chan(){
     document.querySelector("html").innerHTML=`
 <head>
