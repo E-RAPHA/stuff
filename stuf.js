@@ -1,9 +1,10 @@
-// let url = document.location.href
+let url = document.location.href;
+let nome = url.substring(url.indexOf('#') + 1, url.length-1);
 
 function chan(){
     document.querySelector("html").innerHTML=`
 <head>
-    <h1 id="nome">Giovanna</h1>
+    <h1 id="nome">${nome.toUpperCase()}</h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
 </head>
@@ -246,10 +247,9 @@ function Rmusic() {
 }
 
 
-let url = window.location.href
-let nome = url.substring(url.indexOf('#') + 1, url.length-1)
 
-let nomeARR = ['giovanna'];
+
+let nomeARR = ['giovanna','maythe'];
 if (nomeARR.includes(nome) == true) {
     console.log(nome);
     chan();
