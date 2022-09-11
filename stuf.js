@@ -56,13 +56,16 @@ let x = 0;
         }
 
         h3 {
-            font-size: 60px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-            color: rgb(255, 255, 255);
-            margin-top: 1px;
-            text-align: center;
-            margin-bottom: 1px;
+         font-size: 60px;
+         font-weight: bold;
+         font-family: 'Poppins', sans-serif;
+         color: rgb(255, 255, 255);
+         margin-top: 1px;
+         text-align: center;
+         margin-bottom: 1px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
 
         }
         h4 {
@@ -81,7 +84,7 @@ let x = 0;
             height: 80px;
             width: 150px;
             margin: 30px;
-            margin-left: 100px;
+            margin-left: 130px;
             font-size: 40px;
             font-weight: bold;
             font-family: 'Poppins', sans-serif;
@@ -98,7 +101,7 @@ let x = 0;
             height: 80px;
             width: 150px;
             margin: 30px;
-            margin-left: 200px;
+            margin-left: 330px;
             font-size: 40px;
             font-weight: bold;
             font-family: 'Poppins', sans-serif;
