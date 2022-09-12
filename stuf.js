@@ -1,25 +1,27 @@
 
 let url = document.location.href;
 let nome = url.substring(url.indexOf('#') + 1, url.length-1);
+
+
+
+
+  let x = 0;
+  function rbtn() {
+      x++
+      document.getElementById('no').style.marginTop = Math.floor(Math.random() * 1000) + 1+"px"
+      document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 800) + 1+"px"
+      document.getElementById('ten').innerHTML = "tentativas :"+x
+  }
+
 function chan() {
     document.querySelector("head").innerHTML = `
  
-    <h1 id="nome">${nome}</h1>
+    <h1 id="nome"></h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
     `
     document.querySelector("body").innerHTML =`
-    <script>
-    let x = 0;
-                function rbtn() {
-                    x++
-                    document.getElementById('no').style.marginTop = Math.floor(Math.random() * 1000) + 1+"px"
-                    document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 800) + 1+"px"
-                    document.getElementById('ten').innerHTML = "tentativas :"+x
-                }
-    
-        </script>
-       
+
             <button id="si">SIM</button>
             <button id="no" onclick="rbtn()" >NÃO</button>
     
@@ -159,6 +161,7 @@ function chan() {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                background-color: rgb(255, 255, 255);
     
             }
     
@@ -176,6 +179,7 @@ function chan() {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                background-color: rgb(255, 255, 255);
     
             }
     
@@ -273,5 +277,4 @@ if (nomeARR.includes(nome) == true) {
  window.alert('o que vc ta fazendo?')
     }
 }
-
 
