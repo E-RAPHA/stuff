@@ -274,4 +274,4 @@ if (nomeARR.includes(nome) == true) {
     }
 }
 
-chan()
+
