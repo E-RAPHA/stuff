@@ -29,7 +29,7 @@ function chan() {
             }
     
             h1 {
-                font-size: 120px;
+                font-size: 70px;
                 font-weight: bold;
                 font-family: 'Poppins', sans-serif;
                 color: rgb(255, 255, 255);
@@ -39,7 +39,7 @@ function chan() {
             }
     
             h3 {
-                font-size: 60px;
+                font-size: 50px;
                 font-weight: bold;
                 font-family: 'Poppins', sans-serif;
                 color: rgb(255, 255, 255);
