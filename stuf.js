@@ -4,7 +4,7 @@ let nome = url.substring(url.indexOf('#') + 1, url.length-1);
 function chan() {
     document.querySelector("head").innerHTML = `
  
-    <h1 id="nome"></h1>
+    <h1 id="nome">${nome}</h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
     `
