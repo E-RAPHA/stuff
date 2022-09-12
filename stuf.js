@@ -271,7 +271,8 @@ if (nomeARR.includes(nome) == true) {
     chan();
 } else {
     if(url.length>36){
- window.alert('o que vc ta fazendo?')
+      nome = 'invalido, kek?';
+        chan();
     }
 }
 
