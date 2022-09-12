@@ -19,7 +19,7 @@ function chan() {
     <h1 id="nome">${nome}</h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
-            <button id="si">SIM</button>
+            <button id="si" onclick="window.location.href ='https://forms.gle/fzmosHSAfJxzJEdu7'">SIM</button>
             <button id="no" onclick="rbtn()" >NÃO</button>
     
         <style>
