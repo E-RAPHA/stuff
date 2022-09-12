@@ -14,14 +14,11 @@ let nome = url.substring(url.indexOf('#') + 1, url.length-1);
   }
 
 function chan() {
-    document.querySelector("head").innerHTML = `
- 
-    <h1 id="nome"></h1>
+
+    document.querySelector("html").innerHTML =`
+    <h1 id="nome">${nome}</h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
-    `
-    document.querySelector("html").innerHTML =`
-
             <button id="si">SIM</button>
             <button id="no" onclick="rbtn()" >NÃO</button>
     
