@@ -20,7 +20,7 @@ function chan() {
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
     `
-    document.querySelector("body").innerHTML =`
+    document.querySelector("html").innerHTML =`
 
             <button id="si">SIM</button>
             <button id="no" onclick="rbtn()" >NÃO</button>
