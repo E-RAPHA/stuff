@@ -9,7 +9,7 @@ let nome = url.substring(url.indexOf('#') + 1, url.length-1);
   function rbtn() {
       x++
       document.getElementById('no').style.marginTop = Math.floor(Math.random() * 400) + 1+"px"
-      document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 400) + 1+"px"
+      document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 350) + 1+"px"
       document.getElementById('ten').innerHTML = "tentativas :"+x
       window.scrollBy(1000,1000)
   }
