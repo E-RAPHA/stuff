@@ -11,6 +11,7 @@ let nome = url.substring(url.indexOf('#') + 1, url.length-1);
       document.getElementById('no').style.marginTop = Math.floor(Math.random() * 400) + 1+"px"
       document.getElementById('no').style.marginLeft= Math.floor(Math.random() * 400) + 1+"px"
       document.getElementById('ten').innerHTML = "tentativas :"+x
+      window.scrollBy(1000,1000)
   }
 
 function chan() {
@@ -19,7 +20,7 @@ function chan() {
     <h1 id="nome">${nome}</h1>
     <h3>Bora sair?</h3>
     <h4 id="ten"></h4>
-            <button id="si" onclick="window.location.href ='https://forms.gle/fzmosHSAfJxzJEdu7'">SIM</button>
+            <button id="si" onclick="window.location.href ='https://surveyheart.com/form/634cc50c734fee61aa81f596'">SIM</button>
             <button id="no" onclick="rbtn()" >NÃO</button>
     
         <style>
@@ -265,7 +266,7 @@ function Rmusic() {
 
 
 
-let nomeARR = ['giovanna','maythe'];
+let nomeARR = ['giovanna','maythe','isabela'];
 if (nomeARR.includes(nome) == true) {
     console.log(nome);
     chan();
@@ -275,4 +276,3 @@ if (nomeARR.includes(nome) == true) {
         chan();
     }
 }
-
