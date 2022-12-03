@@ -266,7 +266,7 @@ function Rmusic() {
 
 
 
-let nomeARR = ['giovanna','maythe','isabela'];
+let nomeARR = ['giovanna','maythe','isabela','marina'];
 if (nomeARR.includes(nome) == true) {
     console.log(nome);
     chan();
